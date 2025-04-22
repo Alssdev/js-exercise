@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adivina el Número</title>
+  <style>
+    body {
+      background-color: #263238;
+      color: #eceff1;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #37474f;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+
+    input[type="number"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #00bcd4;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #00acc1;
+    }
+
+    .resultado {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #c5e1a5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Adivina el Número</h1>
+    <label for="inputNumero">Adivina un número entre 1 y 100:</label>
+    <input type="number" id="inputNumero" min="1" max="100" />
+    <button id="adivinarBtn">Adivinar</button>
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+  <script>
+    // TODO: Los estudiantes deben implementar:
+    // 1. Generar un número aleatorio entre 1 y 100.
+    // 2. Capturar el número ingresado por el usuario.
+    // 3. Comparar el número ingresado con el número aleatorio.
+    // 4. Mostrar un mensaje indicando si el número es demasiado alto, demasiado bajo o correcto.
+    // 5. Permitir al usuario seguir adivinando hasta que adivine el número correctamente.
+  </script>
+</body>
+</html>
