@@ -26,7 +26,7 @@ Los estudiantes deben:
 - Asegúrate de proporcionar retroalimentación al usuario sobre si el número es demasiado alto o bajo.
 - Utiliza `alert()` o el div `#resultado` para mostrar los mensajes.
 
-## 📁 Estructura
+## ✅ Ejemplo de salida
 
 > **Tu número es demasiado bajo.**  
 > **Tu número es demasiado alto.**  
