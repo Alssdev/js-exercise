@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convertidor de Temperaturas</title>
+  <style>
+    body {
+      background-color: #263238;
+      color: #eceff1;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #37474f;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+
+    input[type="number"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #00bcd4;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #00acc1;
+    }
+
+    .resultado {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #c5e1a5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Convertidor de Temperaturas</h1>
+    <label for="tempC">Temperatura en °C:</label>
+    <input type="number" id="tempC" placeholder="Ej. 25">
+    <button id="convertirBtn">Convertir</button>
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+  <script>
+    // TODO: Los estudiantes deben implementar:
+    // 1. Leer el valor ingresado (°C)
+    // 2. Convertir a Fahrenheit y Kelvin
+    //    F = C * 1.8 + 32
+    //    K = C + 273.15
+    // 3. Mostrar el resultado en el div #resultado
+  </script>
+</body>
+</html>
